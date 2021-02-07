@@ -2,11 +2,6 @@ from PIL import Image, ImageDraw, ImageFont
 import math
 import argparse
 
-'''
-inputImgPath = "img/sch.jpg"
-outputImgPath = "img/result.png"
-scaleFactor = 0.5
-'''
 def getChar(inputValue, chars):
     """ 
     Return a character in the given char list, according to the given input value
